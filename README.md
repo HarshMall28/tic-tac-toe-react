@@ -4,7 +4,7 @@ A classic **Tic-Tac-Toe game** built with **pure React.js**! 🚀
 This project was a journey through **React fundamentals, state management, component structuring, and event handling**.  
 
 <p align="center">
-  <img src="https://your-live-game-screenshot.png" width="500">
+  <img src="https://github.com/HarshMall28/tic-tac-toe-react/blob/main/assets/screenshot.png?raw=true" width="500">
 </p>
 
 ## 🚀 Live Demo  
