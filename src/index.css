@@ -383,3 +383,72 @@ ol {
     transform: scale(1);
   }
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  #game-board {
+    gap: 0.5rem !important;
+  }
+
+  #game-board .row {
+    gap: 0.5rem !important;
+  }
+
+  #game-board button {
+    width: 4rem !important;
+    height: 4rem !important;
+    font-size: 2rem !important;
+  }
+
+  header img {
+    width: 6rem !important;
+    margin: 2rem auto 1rem auto !important;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+    margin: 0 auto 2rem auto !important;
+  }
+
+  #game-container {
+    max-width: 90% !important;
+    padding: 1rem !important;
+  }
+
+  #players {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  #players li {
+    width: 100% !important;
+  }
+
+  .player-name {
+    width: 70% !important;
+    font-size: 0.9rem !important;
+  }
+
+  .player input {
+    width: 70% !important;
+    font-size: 0.9rem !important;
+  }
+
+  #game-board button {
+    width: 6rem !important;
+    height: 6rem !important;
+    font-size: 3rem !important;
+  }
+
+  #game-over h2 {
+    font-size: 2.5rem !important;
+  }
+
+  #game-over p {
+    font-size: 1.5rem !important;
+  }
+
+  #pre-game button {
+    font-size: 3rem !important;
+  }
+}

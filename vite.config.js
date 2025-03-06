@@ -5,4 +5,9 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/tic-tac-toe-react",
+  build: {
+    rollupOptions: {
+      input: "src/index.jsx", // Ensures Vite uses the correct entry file
+    },
+  },
 });
