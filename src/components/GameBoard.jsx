@@ -3,18 +3,17 @@ export default function GameBoard({ onSelectPlayer, board }) {
     <ol id="game-board">
       {board.map((row, rowIndex) => (
         <li key={rowIndex}>
-          <ol>
+          <div className="row">
             {row.map((playerSymbol, colIndex) => (
-              <li key={colIndex}>
-                <button
-                  onClick={() => onSelectPlayer(rowIndex, colIndex)}
-                  disabled={playerSymbol !== null}
-                >
-                  {playerSymbol}
-                </button>
-              </li>
+              <button
+                key={colIndex}
+                onClick={() => onSelectPlayer(rowIndex, colIndex)}
+                disabled={playerSymbol !== null}
+              >
+                {playerSymbol}
+              </button>
             ))}
-          </ol>
+          </div>
         </li>
       ))}
     </ol>
